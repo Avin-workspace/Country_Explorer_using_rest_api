@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Details</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <!-- Header Bar -->
+  <header class="header">
+    <div class="header-title">
+      <span class="globe-icon">&#127758;</span>
+      <h1>Country Explorer</h1>
+    </div>
+  </header>
+
+  <main class="detail-container">
+    <div class="back-btn-wrapper">
+      <a href="index.html" class="back-btn" style="text-decoration: none; display: inline-block;">&larr; Back</a>
+    </div>
+
+    <div class="detail-content">
+      <h2 id="country-name" class="detail-title"></h2>
+
+      <div class="detail-flag-wrapper">
+        <img id="country-flag" class="detail-flag-img" src="" alt="Country Flag">
+      </div>
+
+      <div class="detail-meta-list">
+        <p id="population"><strong>Population: </strong><span></span></p>
+        <p id="region"><strong>Region: </strong><span></span></p>
+        <p id="subregion"><strong>Sub Region: </strong><span></span></p>
+        <p id="capital"><strong>Capital: </strong><span></span></p>
+        <p id="currencies"><strong>Currencies: </strong><span></span></p>
+        <p id="languages"><strong>Languages: </strong><span></span></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="/detail.js"></script>
+</body>
+
+</html>

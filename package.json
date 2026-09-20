@@ -1,0 +1,13 @@
+{
+  "name": "country_explorer_rest_api.",
+  "version": "1.0.0",
+  "description": " COUNTRY_EXPLORER_REST_API.",
+  "license": "ISC",
+  "author": "Avinash Kumar Choudhary",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js -e ejs,js,css,html,jpg,png,scss"
+  }
+}
